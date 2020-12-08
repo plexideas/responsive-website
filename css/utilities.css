@@ -1,11 +1,37 @@
 /* Utilities */
 
+/* Backgroud & button color */
+
+.bg-primary, 
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #FFF;
+}
+
+.bg-dark, 
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: #FFF;
+}
+
+.bg-dark, 
+.btn-dark {
+  background-color: var(--dark-color);
+  color: #FFF;
+}
+
+.bg-dark, 
+.btn-light {
+  background-color: var(--light-color);
+  color: #333;
+}
+
+/* Buttons */
+
 .btn {
   display: inline-block;
   padding: 10px 30px;
   cursor: pointer;
-  background-color: var(--primary-color);
-  color: #FFF;
   border: none;
   border-radius: 5px;
 }
@@ -133,4 +159,25 @@
 }
 .p-5 {
   padding: 4rem;
+}
+
+/* Text sizes */
+.lead {
+  font-size: 20px;
+}
+
+.sm {
+  font-size: 1rem;
+}
+
+.md {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.xl {
+  font-size: 4rem;
 }
