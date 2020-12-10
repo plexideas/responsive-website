@@ -51,6 +51,12 @@ code, pre {
   padding: 10px;
 }
 
+/* Hidden */
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+
 /* Navbar */
 
 .navbar {
