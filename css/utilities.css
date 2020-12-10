@@ -1,5 +1,28 @@
 /* Utilities */
 
+/* Alert */
+
+.alert {
+  background-color: var(--light-color);
+  padding: 10px 30px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.alert i {
+  margin-right: 15px;
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: #FFF;
+}
+
+.alert-error {
+  background-color: var(--error-color);
+  color: #FFF;
+}
+
 /* Backgroud & button color */
 
 .bg-primary, 
@@ -35,6 +58,24 @@
   color: #FFF;
 }
 
+/* Text color */
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+
+.text-light {
+  color: var(--light-color);
+}
+
 /* Buttons */
 
 .btn {
@@ -56,7 +97,7 @@
 }
 
 .card {
-  background-color: #FFF;
+  /* background-color: #FFF; */
   color: #333;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
