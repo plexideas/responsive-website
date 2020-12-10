@@ -2,6 +2,6 @@
 
 # responsive-website
 
-<img src="images/screenshort.png"
+<img src="images/screenshot.png"
      alt="Screenshort :("
      style="float: left; margin-right: 10px; width: 70%" />
